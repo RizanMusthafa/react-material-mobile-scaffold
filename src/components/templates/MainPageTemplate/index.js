@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { View } from '../../atoms';
-import { BottomNavigation, PageHeader } from '../../molecules';
+import { BottomNavigation, PageHeader } from '../../organisms';
 
 function MainPageTemplate(props) {
   const { pageTitle } = props;
