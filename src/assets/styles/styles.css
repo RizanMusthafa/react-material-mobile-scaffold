@@ -1,0 +1,23 @@
+:root,
+body,
+#root {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#root,
+.view-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.page-container {
+  flex-direction: column;
+}
+
+.box {
+  min-height: 100px;
+  min-width: 100px;
+}

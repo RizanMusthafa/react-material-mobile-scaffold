@@ -1,11 +1,8 @@
 import React from 'react';
+import { MainPageTemplate } from '../../templates';
 
 function More() {
-  return (
-    <div>
-      <h1>Hello From More</h1>
-    </div>
-  );
+  return <MainPageTemplate pageTitle="More Page" />;
 }
 
 export default More;

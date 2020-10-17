@@ -1,11 +1,8 @@
 import React from 'react';
+import { MainPageTemplate } from '../../templates';
 
 function About() {
-  return (
-    <div>
-      <h1>Hello From About</h1>
-    </div>
-  );
+  return <MainPageTemplate pageTitle="About Page" />;
 }
 
 export default About;

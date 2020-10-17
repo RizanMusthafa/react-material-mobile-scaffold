@@ -1,11 +1,12 @@
 import React from 'react';
+import { View } from './components/atoms';
 import Routes from './Routes';
 
 function App() {
   return (
-    <div>
+    <View>
       <Routes />
-    </div>
+    </View>
   );
 }
 
